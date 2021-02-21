@@ -1,6 +1,8 @@
 const express = require('express');
 const cors =require('cors');
+require('dotenv').config();
 const auth = require('./util/auth');
+console.log(process.env.ENV)
 
 const app = express();
 
